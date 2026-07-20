@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+#todo-input {
+    width: 70%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.filters {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filters button {
+    margin-right: 5px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.stats {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
